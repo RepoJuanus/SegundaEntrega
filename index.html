@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../assets/img/logos/logoOsc.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../assets/img/logos/logoOsc.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,200;1,400&display=swap"
-        rel="stylesheet">
-    
+        rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap en la nube-->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"> -->
     <!-- Bootstrap Local -->
@@ -19,15 +19,13 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-
-
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #ffffff00">
+        <nav class="navbar navbar-expand-lg" style="background-color: #ffffff56">
             <div class="container-fluid">
                 <a class="navbar-brand d-lg-none" href="./index.html">
                     <img src="./assets/img/logos/logoCel.png" alt="J3D Logo" width="min-content" height="55"
-                        href="./index.html">
+                        href="./index.html" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -37,19 +35,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item fw-semibold">
-                            <a class="nav-link " href="./gallery.html">GALERIA</a>
+                            <a class="nav-link" href="./pages/gallery.html">GALERIA</a>
                         </li>
                         <li class="nav-item fw-semibold">
-                            <a class="nav-link " href="./contact.html">CONTACTO</a>
+                            <a class="nav-link" href="./pages/contact.html">CONTACTO</a>
                         </li>
                     </ul>
                     <a class="navbar-brand d-none d-lg-block" href="./index.html">
                         <img src="./assets/img/logos/logoCel.png" alt="J3D Logo" width="min-content" height="55"
-                            href="./index.html">
+                            href="./index.html" />
                     </a>
-
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"></ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Ingrese su busqueda"
                             aria-label="Search" />
@@ -60,34 +56,44 @@
                 </div>
             </div>
         </nav>
-        
+
         <section class="cuerpo__ppal">
-            <iframe class="timeLapse3D" width="320" height="560" src="https://www.youtube.com/embed/Xbqw5RA39zA" title="TimeLapse  J3D 720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-            <div>
-                <a href="./info.html">
+            <iframe class="timeLapse3D" width="320" height="560" src="https://www.youtube.com/embed/Xbqw5RA39zA"
+                title="TimeLapse  J3D 720" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <div class="texto_ppal">
+                <a href="./pages/info.html">
                     <h3>Tipos de filamentos:</h3>
-                    <p>Los filamentos de impresora 3D son materiales utilizados para la fabricación de objetos en impresoras 3D. Estos filamentos están disponibles en una variedad de materiales y colores, lo que permite a los usuarios crear objetos en 3D de diversas formas y características. Los filamentos más comunes son los de PLA (ácido poliláctico), ABS (acrilonitrilo butadieno estireno), PETG (tereftalato de polietileno glicol), nylon, TPU (poliuretano termoplástico) y otros termoplásticos. Cada material tiene sus propias características y propiedades que los hacen adecuados para diferentes aplicaciones.</p>
+                    <p class="texto__info">
+                        Los filamentos de impresora 3D son materiales utilizados para la
+                        fabricación de objetos en impresoras 3D. Estos filamentos están
+                        disponibles en una variedad de materiales y colores, lo que
+                        permite a los usuarios crear objetos en 3D de diversas formas y
+                        características. Los filamentos más comunes son los de PLA (ácido
+                        poliláctico), ABS (acrilonitrilo butadieno estireno), PETG
+                        (tereftalato de polietileno glicol), nylon, TPU (poliuretano
+                        termoplástico) y otros termoplásticos.
+                    </p>
                     <p class="boton__info">+ INFO</p>
                 </a>
             </div>
-        </section>    
-
+        </section>
 
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="./gallery.html">
-                        <img src="./assets/img/carrousel640/IMG16.png" class="d-block w-100" alt="">
+                        <img src="./assets/img/carrousel640/IMG16.png" class="d-block w-100" alt="" />
                     </a>
                 </div>
                 <div class="carousel-item active">
                     <a href="./gallery.html">
-                        <img src="./assets/img/carrousel640/IMG16.png" class="d-block w-100" alt="">
+                        <img src="./assets/img/carrousel640/IMG16.png" class="d-block w-100" alt="" />
                     </a>
                 </div>
                 <div class="carousel-item active">
                     <a href="./gallery.html">
-                        <img src="./assets/img/carrousel640/IMG16.png" class="d-block w-100" alt="">
+                        <img src="./assets/img/carrousel640/IMG16.png" class="d-block w-100" alt="" />
                     </a>
                 </div>
             </div>
@@ -103,11 +109,55 @@
             </button>
         </div>
     </header>
+    <footer>
+        <section class="footer__redes">
+            <ul class="footer__redes--lista">
+                <li>
+                    <a href="">
+                        <h5>Instagram</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h5>Tweeter</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h5>WhatsApp</h5>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="footer__ubicacion">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.2614098308427!2d-58.3830434166252!3d-34.6039889933669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1681248079936!5m2!1ses!2sar"
+                    width="80%" height="30%" style="border: 0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <h5>Avenida Siempreviva 742</h5>
+                    <h5>Springfield</h5>
+                    <h5>Buenos Aires</h5>
+                    <h5>Argentina</h5>
+    
+                    <h6>Avenida Siempreviva 742</h6>
+                    <h6>Springfield</h6>
+                    <h6>Buenos Aires</h6>
+                    <h6>Argentina</h6>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <!-- Bootstrap en la nube-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> -->
     <!-- Bootstrap Local -->
     <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
