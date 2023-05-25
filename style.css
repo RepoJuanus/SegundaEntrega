@@ -335,12 +335,12 @@ flex-direction: row;
     .footer__ubicacion div iframe{
         width: 30%;
     }
-    .footer__ubicacion div div h5{
+    .footer__ubicacion div div h4{
         display: none;
     }
 
     .footer__ubicacion div div h6{
-        display: flex;
+        display: inline-block;
     }
 
     .contacto__container{
