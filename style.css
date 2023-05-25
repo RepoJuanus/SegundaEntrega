@@ -112,57 +112,11 @@ footer{
 
 /* ------------- GALERIA ---------------*/
 
-.doble__card{
-    display: flex;
-    justify-content: space-around;
-    max-height: 20rem;
-}
 
-.card__izq img,
-.card__der img{
-    width: 50%;
-    border-radius: 5%;
+.new_cards{
+    margin: 0.2%;
+    
 }
-
-.card__izq,
-.card__der{
-    display: flex;
-    background-color: #cececeee;
-    width: 45%;
-    padding: .5rem;
-    margin: .2rem;
-}
-
-.card__izq{
-flex-direction: row;
-}
-
-.card__der{
-    flex-direction: row-reverse;
-}
-
-.card__izq div,
-.card__der div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 1%;
-}
-
-.card__izq div div a,
-.card__der div div a{
-    text-decoration: none;
-    background-color: aliceblue;
-    padding: .5rem;
-    border-radius: 7%;
-}
-
-.card__izq div div a:hover,
-.card__der div div a:hover{
-    background-color: #cecece;
-}
-
 
 /* ------------- DESCARGA ---------------*/
 .form__login {
