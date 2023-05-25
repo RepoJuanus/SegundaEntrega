@@ -112,57 +112,9 @@ footer{
 
 /* ------------- GALERIA ---------------*/
 
-.doble__card{
-    display: flex;
-    justify-content: space-around;
-    max-height: 20rem;
+.new_cards{
+    margin: 0.2%;
 }
-
-.card__izq img,
-.card__der img{
-    width: 50%;
-    border-radius: 5%;
-}
-
-.card__izq,
-.card__der{
-    display: flex;
-    background-color: #cececeee;
-    width: 45%;
-    padding: .5rem;
-    margin: .2rem;
-}
-
-.card__izq{
-flex-direction: row;
-}
-
-.card__der{
-    flex-direction: row-reverse;
-}
-
-.card__izq div,
-.card__der div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 1%;
-}
-
-.card__izq div div a,
-.card__der div div a{
-    text-decoration: none;
-    background-color: aliceblue;
-    padding: .5rem;
-    border-radius: 7%;
-}
-
-.card__izq div div a:hover,
-.card__der div div a:hover{
-    background-color: #cecece;
-}
-
 
 /* ------------- DESCARGA ---------------*/
 .form__login {
@@ -224,7 +176,6 @@ flex-direction: row;
 .contacto__direccion{
     display: flex;
     align-items: center;
-    
     background-color:#cecece;
     height: 30rem;
 }
@@ -240,6 +191,10 @@ flex-direction: row;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contacto__direccion div h6{
+    display: none;
 }
 
 /* -------------- INFORMACION --------------- */
@@ -301,12 +256,28 @@ flex-direction: row;
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 920px){
-    
+@media (max-width: 1140px){
+    .contacto__direccion{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .contacto__direccion div h6{
+        display: block;
+    }
+    .contacto__direccion div h5{
+        display: none;
+    }
+    }
+
+
+@media  (max-width: 920px){
+    body{
+        background-color: #cececeee;
+    }
     .texto_ppal {
         overflow: hidden;
         height: 25rem;
-
     }
     .texto__info{
         display: none;
