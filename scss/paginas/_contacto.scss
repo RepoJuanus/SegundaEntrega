@@ -1,0 +1,37 @@
+/* ------------- CONTACTO ---------------*/
+
+.contacto__container{
+    display: flex;
+    height: 30rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: .5rem;
+    /* border-bottom: 2px solid #cecece; */
+    img{
+        height: 80%;
+        padding: 1rem;
+        border-radius: 10%;
+    }
+}
+
+.contacto__direccion{
+    display: flex;
+    align-items: center;
+    background-color:#cecece;
+    height: 30rem;
+    iframe, div{
+        width: 100%;
+        height: 80%;
+        padding: 1rem;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h6{
+        display: none;
+    }
+}
+

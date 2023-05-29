@@ -1,0 +1,34 @@
+/* ------ MAIN ------ */
+.cuerpo__ppal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+    iframe {
+        border-radius: 5%;
+        scale: 100%;
+        margin: 0 2rem;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 40%; 
+        justify-content: center;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        &:hover{
+            color: burlywood;
+        }
+    }
+}
+
+.carrousel {
+    display: flex;
+    justify-content: center;
+}

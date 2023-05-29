@@ -1,0 +1,15 @@
+@import "_navbar.scss";
+@import "_footer.scss";
+@import "./paginas/_descargas.scss";
+@import "./paginas/_contacto.scss";
+@import "./paginas/_info.scss";
+@import "./paginas/index.scss";
+@import "./paginas/galeria.scss";
+
+body{
+    background-image: linear-gradient(to top, #cecece, #131313);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  responsive  */
+@import "_mediaqueries.scss"

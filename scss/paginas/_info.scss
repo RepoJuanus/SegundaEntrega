@@ -1,0 +1,65 @@
+$color-fondo: #b0b0b0d0;
+
+/* -------------- INFORMACION --------------- */
+
+.doble__card__info {
+    display: flex;
+    justify-content: space-around;
+    max-height: 35rem;
+}
+
+.card__der__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 45%;
+    padding: .5rem;
+    margin: .2rem;
+    background-color: $color-fondo;
+
+    img {
+        width: 80%;
+        border-radius: 5%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 1%;
+    }
+}
+
+.card__izq__info {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-fondo;
+    max-width: 45%;
+    padding: .5rem;
+    margin: .2rem;
+
+    img {
+        max-height: 60%;
+        border-radius: 5%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 1%;
+    }
+
+    div a {
+        text-decoration: none;
+        background-color: aliceblue;
+        padding: 1rem;
+        border-radius: 7%;
+        &:hover{
+            background-color: $color-fondo;
+        }
+    }
+}
