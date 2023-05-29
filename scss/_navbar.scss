@@ -1,0 +1,15 @@
+/*  NAVBAR   */
+.navbar-brand{
+    transition: all 0.4s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.nav-link{
+    color: #cecece;
+    transition: all 0.4s;
+    &:hover{
+        transform: scale(1.1);
+        background-color: aliceblue;
+    }
+}
