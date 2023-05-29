@@ -352,6 +352,16 @@ body {
   }
 }
 @media (max-width: 920px) {
+  .nav-link {
+    color: #cecece;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .nav-link:hover {
+    -webkit-transform: scale(102%, 110%);
+            transform: scale(102%, 110%);
+    background-color: aliceblue;
+  }
   .texto_ppal {
     overflow: hidden;
   }
@@ -423,5 +433,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  /*  log in */
+  .login {
+    width: 50%;
   }
 }

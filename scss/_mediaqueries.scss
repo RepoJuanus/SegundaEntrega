@@ -15,6 +15,14 @@
 
 
 @media  (max-width: 920px){
+    .nav-link{
+        color: #cecece;
+        transition: all 0.2s;
+        &:hover{
+            transform: scale(102%, 110%);
+            background-color: aliceblue;
+        }
+    }
 
     .texto_ppal {
         overflow: hidden;
