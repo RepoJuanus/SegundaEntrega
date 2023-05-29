@@ -15,12 +15,9 @@
 
 
 @media  (max-width: 920px){
-    body{
-        background-color: #cececeee;
-    }
+
     .texto_ppal {
         overflow: hidden;
-        height: 25rem;
     }
     .texto__info{
         display: none;
@@ -28,12 +25,11 @@
     .cuerpo__ppal{
         display:flex;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
     .cuerpo__ppal iframe{
-        border-radius: 8%;
-        scale: 100%;
         width: max-content;
-        max-height: 100%;
         padding: 1%;
     }
 
