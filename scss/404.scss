@@ -1,6 +1,8 @@
 body{
     background-image: url("../assets/img/72fD.gif");
-    background-size: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+
 }
 div{
     color: white;
@@ -10,7 +12,11 @@ h1{
     color: aliceblue;
     text-align: center;
 }
-a{
-    text-decoration: none;
+h3{
+    font-size: 2rem;
     text-align: center;
+    a{
+        color: aliceblue;
+        text-align: center;
+    }
 }
