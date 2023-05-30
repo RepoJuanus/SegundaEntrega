@@ -1,14 +1,19 @@
 /*  NAVBAR   */
+.navbar_bg-color{
+    background-color: #ffffff56;
+}
+
 .navbar-brand{
     transition: all 0.4s;
     &:hover{
         transform: scale(1.1);
     }
 }
-.nav-link{
+.nav-link, .btn_buscar-color{
     color: #cecece;
     transition: all 0.4s;
     &:hover{
+        border-radius: 5%;
         transform: scale(1.1);
         background-color: aliceblue;
     }
